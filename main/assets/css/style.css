@@ -49,11 +49,11 @@ header {
   }
 
   nav {
+    text-decoration: none;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
   }
-  
 
   nav a {
     text-decoration: none;
@@ -88,6 +88,17 @@ header {
     line-height: 1.2;
     display: inline;
   }
+
+    
+  .avatar {
+    display: flex;
+    flex-direction: right;
+    flex-wrap: wrap;
+    align-items: stretch;    
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
   
   .website-wrapper {
     max-width: 90%;
@@ -112,15 +123,6 @@ header {
     font-size: 4vw;
     line-height: 1;
   }
-
-  .page-section > div {
-    flex: 0 0 80%;
-  }
-  
-  .page-section p {
-    margin-bottom: 20px;
-  }
-  
 
   .flex-container {
     display: flex;
