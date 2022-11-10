@@ -14,11 +14,11 @@ Online portfolio showcasing my skills and talents to employers looking to fill d
 
 ## Screenshots
 
-![App Screenshot](./main/assets/pictures/screenshot.PNG)
+![App Screenshot](./assets/pictures/screenshot.PNG)
 
 
 ## 🔗 Links
-[![portfolio](https://parkercf.github.io/Portfolio/)
+(https://parkercf.github.io/Portfolio/)
 
 ## License
 
