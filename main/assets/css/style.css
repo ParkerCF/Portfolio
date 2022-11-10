@@ -32,7 +32,6 @@ header {
     flex-wrap: wrap;
     align-items: center;
     background-color: var(--background);
-    box-shadow: 0 5px 30px rgba(146, 204, 206, 0.4);
   }
 
   header h1 {
@@ -44,7 +43,6 @@ header {
   }
 
   nav {
-    text-decoration: none;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -73,9 +71,6 @@ header {
     text-align: right;
   }
 
-  .hero-banner div {
-    flex: 0 0 90%;
-  }
   .hero-banner h2 {
     margin: 0;
     color:rgb(148, 181, 234);
@@ -98,8 +93,8 @@ header {
   }
 
   .website-section {
-    margin: 25px 0;
-    padding: 10px 0;
+    margin: 20px 0;
+    padding: 12px 0;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -111,9 +106,17 @@ header {
     text-align: right;
     padding-right: 15px;
     border-right: 5px solid rgb(74, 74, 243);
-    font-size: 4vw;
+    font-size: 3vw;
     line-height: 1;
   }
+
+  .website-section > div {
+    flex: 0 0 60%;
+  }
+  .website-section p {
+    margin-bottom: 20px;
+  }
+
 
   .flex-container {
     display: flex;
@@ -122,20 +125,20 @@ header {
   }
 
   .flex-item {
-    min-height: 150px;
-    max-height: 150px;
+    min-height: 100px;
+    max-height: 100px;
     display: flex;
     align-items: flex-end;
-    padding: 0 0 20px 0;
-    background-size: 150%;
-    font-size: 1rem;
+    flex-wrap: wrap;
+    padding: 0 0 10px 0;
+    background-size: 100%;
+    font-size: .75rem;
   }
 
 .flex-item:first-child {
-    min-height: 400px;
+    min-height: 500px;
     flex-basis: 100%;
 }
-
 
 .flex-item div {
   background-color: var(--background);
@@ -143,7 +146,7 @@ header {
 }
 
 .flex-item h3 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
   .horizon-marketing {
