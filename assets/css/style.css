@@ -122,6 +122,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
   }
 
   .flex-item {
@@ -149,10 +150,14 @@ header {
   font-size: 1.2rem;
 }
 
-  .horizon-marketing {
-    background-image: url("../pictures/marketing.jpg");
+  .movie-trailers {
+    background-image: url("../pictures/MovieTrailers.png");
   }
   
+  /* .work-day {
+    background-image: url("../pictures/WorkDayScheduler.png");
+   
+  } */
   .contact-me address {
     display: flex;
     flex-wrap: wrap;
