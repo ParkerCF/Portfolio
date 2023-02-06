@@ -150,6 +150,9 @@ header {
   font-size: 1.2rem;
 }
 
+  .quiz-creator {
+    background-image: url("../pictures/QuizCreator.png") ;
+  }
   .movie-trailers {
     background-image: url("../pictures/MovieTrailers.png");
   }
